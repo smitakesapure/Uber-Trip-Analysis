@@ -13,6 +13,9 @@ Gain insights into booking trends, revenue generation, and trip efficiency acros
 - **Average Trip Distance** – Average distance per trip.
 - **Average Trip Time** – Average duration of each trip.
 
+### 📊 Dashboard 1: Overview Analysis
+### ⏱️ Dashboard 2: Time Analysis
+### 📋 Dashboard 3: Details Tab (Drill-Through)
 ### 📈 Charts and Features:
 - **Dynamic Measure Selector** using Disconnected Table:
   - Values: `Total Bookings`, `Total Booking Value`, `Total Trip Distance`
@@ -22,7 +25,6 @@ Gain insights into booking trends, revenue generation, and trip efficiency acros
   - By Trip Type (Day/Night)
 - **Dynamic Title** – Updates according to the selected KPI.
 - **Slicers** – For Date, City, Trip Type, etc.
-- **Tooltips** – Show additional info like Average Distance or Booking Value.
 - **Vehicle Type Analysis** – Grid (Matrix) view showing:
   - Total Bookings
   - Total Booking Value
@@ -42,10 +44,6 @@ Gain insights into booking trends, revenue generation, and trip efficiency acros
   - Shows metric definitions, table descriptions, and refresh info.
 - **🔄 Clear Filters Button** – Resets all slicers.
 - **📥 Download Raw Data** – Export raw trip data to Excel or CSV using Power Automate or Power BI Export.
-
-## 📊 Dashboard 1: Overview Analysis
-## ⏱️ Dashboard 2: Time Analysis
-## 📋 Dashboard 3: Details Tab (Drill-Through)
 
 
 ## 📂 Project Features Summary
