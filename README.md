@@ -13,38 +13,32 @@ Gain insights into booking trends, revenue generation, and trip efficiency acros
 - **Average Trip Distance** – Average distance per trip.
 - **Average Trip Time** – Average duration of each trip.
 
-### 📊 Dashboard 1: Overview Analysis
-### ⏱️ Dashboard 2: Time Analysis
-### 📋 Dashboard 3: Details Tab (Drill-Through)
-### 📈 Charts and Features:
-- **Dynamic Measure Selector** using Disconnected Table:
-  - Values: `Total Bookings`, `Total Booking Value`, `Total Trip Distance`
-  - Changes the visual content based on user selection.
-- **Visual Breakdown**:
-  - By Payment Type (Card, Cash, Wallet)
-  - By Trip Type (Day/Night)
-- **Dynamic Title** – Updates according to the selected KPI.
-- **Slicers** – For Date, City, Trip Type, etc.
-- **Vehicle Type Analysis** – Grid (Matrix) view showing:
-  - Total Bookings
-  - Total Booking Value
-  - Average Booking Value
-  - Total Trip Distance
-  - With Conditional Formatting and Sorting.
-- **Total Bookings by Day** – Trend analysis for peak/off-peak days.
 
-### 📍 Location Analysis:
-- **Most Frequent Pickup & Drop-off Points**
-- **Farthest Trip** – Longest distance trip.
-- **Top 5 Locations by Bookings**
-- **Most Preferred Vehicle Type by Pickup Location**
+### 1. Overview Analysis
+- **KPIs**: Total Bookings, Booking Value, Avg Trip Distance & Time
+- **Insights**:
+  - Booking trends & revenue analysis
+  - Efficiency of trips (distance vs time)
+  - Location & vehicle preference
+- **Features**:
+  - Measure Selector (Disconnected Table)
+  - Dynamic Title & Tooltips
+  - Filters by City, Date, Payment Type, Trip Type
+  - Vehicle Type Grid with conditional formatting
+  - Reset Filters & Download Data buttons
 
-### ⚙️ Additional Enhancements:
-- **📌 Bookmark: Data Details**
-  - Shows metric definitions, table descriptions, and refresh info.
-- **🔄 Clear Filters Button** – Resets all slicers.
-- **📥 Download Raw Data** – Export raw trip data to Excel or CSV using Power Automate or Power BI Export.
+### 2. Time Analysis
+- **Visuals**:
+  - Area chart (10-min intervals)
+  - Line chart (by weekday)
+  - Heatmap (Hour × Weekday)
+- **Purpose**: Identify peak hours & optimize operations
 
+### 3. Details Tab
+- **Grid Table** with trip-level data
+- **Drill-through** from other visuals
+- **Bookmarks**: Full Data View toggle
+ 
 
 ## 📂 Project Features Summary
 
